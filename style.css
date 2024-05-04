@@ -1,0 +1,44 @@
+html, body {
+    height: 80%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.titulo {
+    color: #ff7f0f; 
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 48px; 
+    text-align: center; 
+    margin-top: 100px; 
+    padding: 20px; 
+    border: 2px solid #ff7f0f; 
+    box-shadow: 0px 0px 10px rgba(255, 127, 15, 0.5); 
+    display: inline-block; 
+}
+
+.botoes {
+  position: relative;
+  top: 10px;
+}
+
+button {
+    background-color: #ff7f0f; 
+    color: #fff;
+    font-family: 'Press Start 2P', cursive; 
+    font-size: 16px; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    border: none; 
+    cursor: pointer; 
+    outline: none; 
+    border-radius: 5px; 
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); 
+    transition: background-color 0.3s; 
+}
+
+canvas {
+    display: block;
+}
